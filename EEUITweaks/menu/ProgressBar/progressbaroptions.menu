@@ -98,9 +98,9 @@ menu
 			width 10
 			label
 			{
-				area		0 8 -1 -1
+				area		0 8 32 32
 				bam			ROUNDBUT
-				align 		center center
+				scaleToClip
 				frame		lua "progBarOptionsToggles[rowNumber][3]"
 			}
 		}

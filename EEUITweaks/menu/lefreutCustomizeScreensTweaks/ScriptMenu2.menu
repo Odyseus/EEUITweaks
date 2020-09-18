@@ -142,9 +142,9 @@ menu
 			width 20
 			label
 			{
-				area	20 4 -1 -1
+				area	20 4 32 32
 				bam		ROUNDBUT
-				align	left center
+				scaleToClip
 				frame	lua "scriptOptions[rowNumber][4]"
 			}
 		}
